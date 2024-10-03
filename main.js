@@ -12,6 +12,7 @@ function createWindow() {
     //win.webContents.loadURL('https://www.google.com/');
     win.webContents.loadURL('http://localhost:8080/');
     win.webContents.openDevTools();
+
 }
 
 app.whenReady().then(createWindow);
